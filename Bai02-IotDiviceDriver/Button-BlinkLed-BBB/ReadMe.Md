@@ -1,0 +1,5 @@
+- Enabled in the GPIO_IRQSTATUS_SET_0 and/or GPIO_IRQSTATUS_SET_1 registers: enable channel để bật ngắt.
+- Chọn ngắt nào: GPIO_LEVELDETECT0, GPIO_LEVELDETECT1, GPIO_RISINGDETECT, and GPIO_FALLINGDETECT registers.
+    - Cấu hình bit tương ứng là 1.
+- Set chân ngắt là input
+- Khi có ngắt xảy ra: bit tương ứng trong GPIO_IRQSTATUS_RAW_n registers sẽ được set lên 1
